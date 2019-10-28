@@ -1,0 +1,32 @@
+/*body{*/
+/*    background-color: gainsboro;*/
+/*}*/
+
+body{
+    background-color: grey;
+    style: "text-align-center";
+}
+
+.butstyle{
+    background-color: blue;
+}
+.parent-container {
+    position: relative;
+    height:100%;
+    width: 100%;
+}
+
+.submit-button {
+    color: blue;
+    width: 60px;
+    height: 20px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.form {
+    width: 40%;
+    margin-left: 30%;
+}

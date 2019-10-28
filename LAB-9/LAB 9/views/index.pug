@@ -1,0 +1,56 @@
+doctype html
+html
+    head
+        title "Login using Pug"
+        link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css")
+        link(rel="stylesheet" href="/css/styles.css")
+        script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js")
+        //script(src="/js/script.js")
+
+    body
+        h1.heading Please Login below
+
+        form( method='POST' action='/details')
+            div.form(style="text-align:center;")
+                input.form-control(type="email" name="email" placeholder="Email")
+                br
+                input.form-control(type="password" name="password" placeholder="password")
+                br
+                button(type='submit' class='btn btn-success butstyle') Sign in
+
+        script.
+            SignIn = function () {
+                console.log("Clicked on the sign in button")
+            };
+
+
+
+        //
+        //p.
+        //    This is a multiline text
+        //    We should use dot to write a multiline text
+        //ul
+        //    li This is list item#1
+        //    li This is list item#2
+        //    li This is list item#3
+        //h1#heading This is my heading
+        //p.paragraph This is my paragraph
+        //
+        //input(type="text" data-js=`${5>2 ? "OK": "NOT OK"}`)
+        //input(type="password")
+        //
+        //-const myClasses = ["class1", "class2", "class3"]
+        //div(class = myClasses)
+        //
+        //each n in [1,2,3,4,5]
+        //    p= n
+        //else
+        //    p Empty Array
+        //
+        //-let user = {name:'siri', loggedIn: true}
+        //
+        //if user.loggedIn
+        //    p Valid User
+        //else
+        //    p InValid User
+
