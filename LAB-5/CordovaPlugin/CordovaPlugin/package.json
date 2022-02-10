@@ -41,7 +41,7 @@
     "firebase": "^5.8.4",
     "ionic-angular": "3.9.2",
     "ionicons": "3.0.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "rebuild": "^0.1.2",
     "rxjs": "^6.0.0",
     "rxjs-compat": "^6.5.3",
